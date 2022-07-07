@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>CPF & CNPJ</title>
+</head>
+<body>
+    <div class="page-wrapper">
+
+        <div class="large-box">
+            <div class="medium-box">
+                <span>CPF Generator</span>
+                <div class="small-box">
+                    <input type="text" id="cpf-generator" disabled>
+                    <button class="btn-green" id="btn-cpf-generator">Generate</button>
+                </div>
+            </div>
+            <div class="medium-box">
+                <span>CPF Validator</span>
+                <div class="small-box">
+                    <input type="text" id="cpf-validator">
+                    <button class="btn-green" id="btn-cpf-validator">Validate</button>
+                    <button class="btn-yellow" id="btn-clear-cpf-validator">Clear</button>
+                </div>
+                <p id="cpf-result"></p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="large-box">
+            <div class="medium-box">
+                <span>CNPJ Generator</span>
+                <div class="small-box">
+                    <input type="text" id="cnpj-generator" disabled>
+                    <button class="btn-green" id="btn-cnpj-generator">Generate</button>
+                </div>
+            </div>
+            <div class="medium-box">
+                <span>CNPJ Validator</span>
+                <div class="small-box">
+                    <input type="text" id="cnpj-validator">
+                    <button class="btn-green" id="btn-cnpj-validator">Validate</button>
+                    <button class="btn-yellow" id="btn-clear-cnpj-validator">Clear</button>
+                </div>
+                <p id="cnpj-result"></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer">
+            <p>&copy; 2022 CSS Flexbox</p>
+            <p>Desenvolvido por: Matheus Siquara Mendonça</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./scripts/js/main.js"></script>
+</body>
+</html>
